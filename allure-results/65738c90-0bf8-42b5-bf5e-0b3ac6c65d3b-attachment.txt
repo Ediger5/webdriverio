@@ -1,0 +1,4 @@
+{
+  "script": "return (() => {\n      const element = document.querySelector('#dropdownRegionButton');\n      element.click();\n    }).apply(null, arguments)",
+  "args": []
+}

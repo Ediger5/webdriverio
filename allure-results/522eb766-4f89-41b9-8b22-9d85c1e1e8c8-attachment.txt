@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Все программы\"}\n  (Session info: chrome=120.0.6099.225)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF644812142+3514994]\n\t(No symbol) [0x00007FF644430CE2]\n\t(No symbol) [0x00007FF6442D76AA]\n\t(No symbol) [0x00007FF644321860]\n\t(No symbol) [0x00007FF64432197C]\n\t(No symbol) [0x00007FF644364EE7]\n\t(No symbol) [0x00007FF64434602F]\n\t(No symbol) [0x00007FF6443628F6]\n\t(No symbol) [0x00007FF644345D93]\n\t(No symbol) [0x00007FF644314BDC]\n\t(No symbol) [0x00007FF644315C64]\n\tGetHandleVerifier [0x00007FF64483E16B+3695259]\n\tGetHandleVerifier [0x00007FF644896737+4057191]\n\tGetHandleVerifier [0x00007FF64488E4E3+4023827]\n\tGetHandleVerifier [0x00007FF6445604F9+689705]\n\t(No symbol) [0x00007FF64443C048]\n\t(No symbol) [0x00007FF644438044]\n\t(No symbol) [0x00007FF6444381C9]\n\t(No symbol) [0x00007FF6444288C4]\n\tBaseThreadInitThunk [0x00007FFEE5E6257D+29]\n\tRtlUserThreadStart [0x00007FFEE708AA58+40]\n"
+}

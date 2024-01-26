@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="OtbasyBank Page" timestamp="2024-01-19T13:28:10" time="233.279" tests="8" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="OtbasyBank Page"/>
+      <property name="capabilities" value="chrome.120_0_6099_225.windows"/>
+      <property name="file" value="file:///C:/Users/Admin/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/WebdriverIO/WebdriverIO_Project_1/test/specs/attempt%20.js"/>
+    </properties>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Open the main url" time="5.128">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/url - {"url":"https://otbasybank.kz/"}
+RESULT: {"url":"https://otbasybank.kz/"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {"x":null,"y":null,"width":1400,"height":900}
+RESULT: {"x":null,"y":null,"width":1400,"height":900}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Block Div Container" time="89.407">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[3]/a/p/span"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[3]/a/p/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FBFB0D8A2E9C7E9B38E27F36296F6A9D_element_103/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FBFB0D8A2E9C7E9B38E27F36296F6A9D_element_102/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[3]/a/p/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[3]/a/p/span"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FBFB0D8A2E9C7E9B38E27F36296F6A9D_element_102/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[3]/a/p/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[3]/a/p/span"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/07ACED67FB425156656E939774DB1E80_element_184/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Нурлы Жер"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Шаңырақ"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Свой дом"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Жаңа Баспана"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"С дипломом в село"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Субсидирование Аренды"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Женская ипотека «ҰМАЙ»"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Все программы"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"css selector","value":"#pbId"}
+RESULT: {"using":"link text","value":"Нурлы Жер"}
+RESULT: {"using":"link text","value":"Шаңырақ"}
+RESULT: {"using":"link text","value":"Свой дом"}
+RESULT: {"using":"link text","value":"Жаңа Баспана"}
+RESULT: {"using":"link text","value":"С дипломом в село"}
+RESULT: {"using":"link text","value":"Субсидирование Аренды"}
+RESULT: {"using":"link text","value":"Женская ипотека «ҰМАЙ»"}
+RESULT: {"using":"link text","value":"Все программы"}
+RESULT: {"using":"css selector","value":"#pbId"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Нурлы Жер"}
+RESULT: {"using":"link text","value":"Нурлы Жер"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Нурлы Жер"}
+RESULT: {"using":"link text","value":"Нурлы Жер"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_263/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"9614BFCAE9D9602BD93C8D8C0B7E59A7"}
+RESULT: {"handle":"9614BFCAE9D9602BD93C8D8C0B7E59A7"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Шаңырақ"}
+RESULT: {"using":"link text","value":"Шаңырақ"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Шаңырақ"}
+RESULT: {"using":"link text","value":"Шаңырақ"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_264/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"0F3EDB621C573C711DA0373548CA7091"}
+RESULT: {"handle":"0F3EDB621C573C711DA0373548CA7091"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Свой дом"}
+RESULT: {"using":"link text","value":"Свой дом"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Свой дом"}
+RESULT: {"using":"link text","value":"Свой дом"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_265/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"9EF73240BE02759EB773F9F4052AEC11"}
+RESULT: {"handle":"9EF73240BE02759EB773F9F4052AEC11"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Жаңа Баспана"}
+RESULT: {"using":"link text","value":"Жаңа Баспана"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Жаңа Баспана"}
+RESULT: {"using":"link text","value":"Жаңа Баспана"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_266/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"5124B05E1BBBD5230D67155849BE5765"}
+RESULT: {"handle":"5124B05E1BBBD5230D67155849BE5765"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"С дипломом в село"}
+RESULT: {"using":"link text","value":"С дипломом в село"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"С дипломом в село"}
+RESULT: {"using":"link text","value":"С дипломом в село"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_267/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"40E2B3107A8AC5CC5E763693B3144E23"}
+RESULT: {"handle":"40E2B3107A8AC5CC5E763693B3144E23"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Субсидирование Аренды"}
+RESULT: {"using":"link text","value":"Субсидирование Аренды"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Субсидирование Аренды"}
+RESULT: {"using":"link text","value":"Субсидирование Аренды"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_268/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"880EB1D54B803ABE2E7D60966253CD84"}
+RESULT: {"handle":"880EB1D54B803ABE2E7D60966253CD84"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Женская ипотека «ҰМАЙ»"}
+RESULT: {"using":"link text","value":"Женская ипотека «ҰМАЙ»"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Женская ипотека «ҰМАЙ»"}
+RESULT: {"using":"link text","value":"Женская ипотека «ҰМАЙ»"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_269/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"FFCF3D695AAD9A9D14675F32F95FFC85"}
+RESULT: {"handle":"FFCF3D695AAD9A9D14675F32F95FFC85"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_262/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Все программы"}
+RESULT: {"using":"link text","value":"Все программы"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Все программы"}
+RESULT: {"using":"link text","value":"Все программы"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/0584C5105F585F7D44EFF2EB7ABF775C_element_270/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/back - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[2]/div/a[1]/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[2]/div/a[1]/span"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/6DBF863C1A955E4436FB29BFD13A1187_element_380/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FBFB0D8A2E9C7E9B38E27F36296F6A9D_element_103/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FBFB0D8A2E9C7E9B38E27F36296F6A9D_element_103/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/DBD78962DFEFC9E937831AD3730B946D_element_382/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"FAQ"}
+RESULT: {"using":"link text","value":"FAQ"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/685B9F6FA913D7AE04D6895AF4E691D5_element_479/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"40B9BB064F47852EFC1A5FF097FAA5CA"}
+RESULT: {"handle":"40B9BB064F47852EFC1A5FF097FAA5CA"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[2]/div/div[4]/p/button/span"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[2]/div/div[4]/p/button/span"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/685B9F6FA913D7AE04D6895AF4E691D5_element_482/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/refresh - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Рус"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Қаз"}
+RESULT: {"using":"link text","value":"Рус"}
+RESULT: {"using":"link text","value":"Қаз"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/90EDF3AB746D2E9A3B770D4A751B0D97_element_558/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Рус"}
+RESULT: {"using":"link text","value":"Рус"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Рус"}
+RESULT: {"using":"link text","value":"Рус"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/45C3875A3C62E6961AA9B7A85EB4CB52_element_640/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Vash Gid Nedvizhimosti" time="16.24">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"css selector","value":"#priceFrom"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"css selector","value":"#priceTo"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => {\n      const element = document.querySelector('#dropdownRegionButton');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+RESULT: {"using":"css selector","value":"#priceFrom"}
+RESULT: {"using":"css selector","value":"#priceTo"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"script":"return (() => {\n      const element = document.querySelector('#dropdownRegionButton');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => {\n      const element = document.querySelector('#dropdownObjectButton');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => {\n      const element = document.querySelector('#dropdownObjectButton');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => {\n      const element = document.querySelector('#select-icon-codes');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => {\n      const element = document.querySelector('#select-icon-codes');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => {\n      const element = document.querySelector('#select-icon-rooms');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => {\n      const element = document.querySelector('#select-icon-rooms');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => {\n      const element = document.querySelector('#select-icon-realizations')\n      element.click();\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => {\n      const element = document.querySelector('#select-icon-realizations')\n      element.click();\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => {\n      const element = document.querySelector('#select-icon-prices');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => {\n      const element = document.querySelector('#select-icon-prices');\n      element.click();\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/7CF9B2CE0F71E29E9F97008792A9BE48_element_669/clear - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/7CF9B2CE0F71E29E9F97008792A9BE48_element_669/value - {"text":"0"}
+RESULT: {"text":"0"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/7CF9B2CE0F71E29E9F97008792A9BE48_element_672/clear - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/7CF9B2CE0F71E29E9F97008792A9BE48_element_672/value - {"text":"999999999"}
+RESULT: {"text":"999999999"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/7CF9B2CE0F71E29E9F97008792A9BE48_element_642/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/7CF9B2CE0F71E29E9F97008792A9BE48_element_642/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/BD340DD62843301D20B1E705AF0C80E1_element_721/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Check Gosprogrammy" time="6.721">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Показать все"}
+RESULT: {"using":"link text","value":"Показать все"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/elements - {"using":"link text","value":"Показать все"}
+RESULT: {"using":"link text","value":"Показать все"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Показать все"}
+RESULT: {"using":"link text","value":"Показать все"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/410DF3C7C5A6C23D32C0B757CAA23922_element_882/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((yOffset) => {\n      window.scrollTo(0, yOffset);\n    }).apply(null, arguments)","args":[707.800048828125]}
+RESULT: {"script":"return ((yOffset) => {\n      window.scrollTo(0, yOffset);\n    }).apply(null, arguments)","args":[707.800048828125]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/410DF3C7C5A6C23D32C0B757CAA23922_element_882/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/410DF3C7C5A6C23D32C0B757CAA23922_element_801/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/410DF3C7C5A6C23D32C0B757CAA23922_element_801/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/BA7C235C2DE1A5A269C0C31BE6455E3E_element_884/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Check Novostroiki" time="16.554">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"//*[@id=\"div_DirectSale\"]/div/div[1]/a/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"//*[@id=\"div_DirectSale\"]/div/div[1]/a/div"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/FEB8C4574C5421FAB65E878C47E1FC19_element_1046/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((yOffset) => {\n      window.scrollTo(0, yOffset);\n    }).apply(null, arguments)","args":[1421.800048828125]}
+RESULT: {"script":"return ((yOffset) => {\n      window.scrollTo(0, yOffset);\n    }).apply(null, arguments)","args":[1421.800048828125]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FEB8C4574C5421FAB65E878C47E1FC19_element_1046/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FEB8C4574C5421FAB65E878C47E1FC19_element_970/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/FEB8C4574C5421FAB65E878C47E1FC19_element_970/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/8C0532A9C2992EE1CDD0111EDCC353B9_element_1057/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Check Vtorichka" time="8.633">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"//*[@id=\"div_SecondHouses\"]/div/div[1]/a/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"//*[@id=\"div_SecondHouses\"]/div/div[1]/a/div"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/A57FD21CE3CA8C2A07D26DE955B62796_element_1200/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((yOffset) => {\n      window.scrollTo(0, yOffset);\n    }).apply(null, arguments)","args":[2135.800048828125]}
+RESULT: {"script":"return ((yOffset) => {\n      window.scrollTo(0, yOffset);\n    }).apply(null, arguments)","args":[2135.800048828125]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/A57FD21CE3CA8C2A07D26DE955B62796_element_1200/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/A57FD21CE3CA8C2A07D26DE955B62796_element_1122/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/A57FD21CE3CA8C2A07D26DE955B62796_element_1122/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/header/div[1]/div[1]/a/img"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/49AA8F7C2604A2AA3ECA14F61C104E7F_element_1205/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Calculator i Novosti" time="9.55">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Читать"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Читать"}
+RESULT: {"using":"link text","value":"Читать"}
+RESULT: {"using":"link text","value":"Читать"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/54F96A3087642DC09CB0A6CBCA126DC0_element_1362/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-656,"y":2554,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"54F96A3087642DC09CB0A6CBCA126DC0_element_1362"}}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"54F96A3087642DC09CB0A6CBCA126DC0_element_1362","ELEMENT":"54F96A3087642DC09CB0A6CBCA126DC0_element_1362"},{"behavior":"smooth","block":"center","inline":"center"}]}
+RESULT: {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"54F96A3087642DC09CB0A6CBCA126DC0_element_1362","ELEMENT":"54F96A3087642DC09CB0A6CBCA126DC0_element_1362"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/54F96A3087642DC09CB0A6CBCA126DC0_element_1362/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.120_0_6099_225.windows.OtbasyBank_Page" name="Bottom" time="81.041">
+      <system-out><![CDATA[
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Интернет-Банкинг"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Ипотека"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Калькулятор"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[4]/a/div"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[5]/a/div"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Карта сайта"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Новостройки"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"О Baspana.kz"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Интернет-Банкинг"}
+RESULT: {"using":"link text","value":"Интернет-Банкинг"}
+RESULT: {"using":"link text","value":"Ипотека"}
+RESULT: {"using":"link text","value":"Калькулятор"}
+RESULT: {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[4]/a/div"}
+RESULT: {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[5]/a/div"}
+RESULT: {"using":"link text","value":"Карта сайта"}
+RESULT: {"using":"link text","value":"Новостройки"}
+RESULT: {"using":"link text","value":"О Baspana.kz"}
+RESULT: {"using":"link text","value":"Интернет-Банкинг"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1387/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action3","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-628,"y":4907,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"1DB64A5534AF0B2A10EF295859E9654F_element_1387"}}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1DB64A5534AF0B2A10EF295859E9654F_element_1387","ELEMENT":"1DB64A5534AF0B2A10EF295859E9654F_element_1387"},{"behavior":"smooth","block":"center","inline":"center"}]}
+RESULT: {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1DB64A5534AF0B2A10EF295859E9654F_element_1387","ELEMENT":"1DB64A5534AF0B2A10EF295859E9654F_element_1387"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1387/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"1E6CA8C01EE472A7A51D105B0517A868"}
+RESULT: {"handle":"1E6CA8C01EE472A7A51D105B0517A868"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1388/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"F3EC96A5E89C47D5D35A7991A7C06256"}
+RESULT: {"handle":"F3EC96A5E89C47D5D35A7991A7C06256"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1389/click - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/title - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => window.name).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"6683FCEE1F29CC1FADA3ACFB6B59FE9B"}
+RESULT: {"handle":"6683FCEE1F29CC1FADA3ACFB6B59FE9B"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4/window - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/window - {"handle":"13EEE090DE2D696674854157154B96EE"}
+RESULT: {"handle":"13EEE090DE2D696674854157154B96EE"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/url - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1390/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/back - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1387/rect - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1DB64A5534AF0B2A10EF295859E9654F_element_1387","ELEMENT":"1DB64A5534AF0B2A10EF295859E9654F_element_1387"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Интернет-Банкинг"}
+RESULT: {"using":"link text","value":"Интернет-Банкинг"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/F97A85A9EEA6182D634FD33661FB65AF_element_1442/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action4","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-628,"y":4907,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"1DB64A5534AF0B2A10EF295859E9654F_element_1387"}}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"F97A85A9EEA6182D634FD33661FB65AF_element_1442","ELEMENT":"F97A85A9EEA6182D634FD33661FB65AF_element_1442"},{"behavior":"smooth","block":"center","inline":"center"}]}
+RESULT: {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"F97A85A9EEA6182D634FD33661FB65AF_element_1442","ELEMENT":"F97A85A9EEA6182D634FD33661FB65AF_element_1442"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1391/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[5]/a/div"}
+RESULT: {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[5]/a/div"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1391/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[5]/a/div"}
+RESULT: {"using":"xpath","value":"/html/body/footer/div/div[1]/nav/ul/li[5]/a/div"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/F97A85A9EEA6182D634FD33661FB65AF_element_1443/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/back - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/F97A85A9EEA6182D634FD33661FB65AF_element_1442/rect - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"F97A85A9EEA6182D634FD33661FB65AF_element_1442","ELEMENT":"F97A85A9EEA6182D634FD33661FB65AF_element_1442"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Интернет-Банкинг"}
+RESULT: {"using":"link text","value":"Интернет-Банкинг"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/CF9703DAB009E9ADE08589A7570CB710_element_1499/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action5","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-628,"y":4907,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"F97A85A9EEA6182D634FD33661FB65AF_element_1442"}}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"CF9703DAB009E9ADE08589A7570CB710_element_1499","ELEMENT":"CF9703DAB009E9ADE08589A7570CB710_element_1499"},{"behavior":"smooth","block":"center","inline":"center"}]}
+RESULT: {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"CF9703DAB009E9ADE08589A7570CB710_element_1499","ELEMENT":"CF9703DAB009E9ADE08589A7570CB710_element_1499"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1392/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Карта сайта"}
+RESULT: {"using":"link text","value":"Карта сайта"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1392/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Карта сайта"}
+RESULT: {"using":"link text","value":"Карта сайта"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/CF9703DAB009E9ADE08589A7570CB710_element_1500/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/back - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/CF9703DAB009E9ADE08589A7570CB710_element_1499/rect - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"CF9703DAB009E9ADE08589A7570CB710_element_1499","ELEMENT":"CF9703DAB009E9ADE08589A7570CB710_element_1499"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Интернет-Банкинг"}
+RESULT: {"using":"link text","value":"Интернет-Банкинг"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/88F8944E47E4AE4B39FE9FA2C870653B_element_1553/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action6","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-628,"y":4907,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"CF9703DAB009E9ADE08589A7570CB710_element_1499"}}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553","ELEMENT":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553"},{"behavior":"smooth","block":"center","inline":"center"}]}
+RESULT: {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553","ELEMENT":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1393/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Новостройки"}
+RESULT: {"using":"link text","value":"Новостройки"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1393/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Новостройки"}
+RESULT: {"using":"link text","value":"Новостройки"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/88F8944E47E4AE4B39FE9FA2C870653B_element_1554/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/back - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/88F8944E47E4AE4B39FE9FA2C870653B_element_1553/rect - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553","ELEMENT":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"Интернет-Банкинг"}
+RESULT: {"using":"link text","value":"Интернет-Банкинг"}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/element/1A82BA61D6066640F289D2ED669A30CF_element_1656/rect - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/window/rect - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (() => [\n            window.scrollX, window.scrollY\n        ]).apply(null, arguments)","args":[]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/actions - {"actions":[{"id":"action7","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-628,"y":4907,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"88F8944E47E4AE4B39FE9FA2C870653B_element_1553"}}]}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/execute/sync - {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1A82BA61D6066640F289D2ED669A30CF_element_1656","ELEMENT":"1A82BA61D6066640F289D2ED669A30CF_element_1656"},{"behavior":"smooth","block":"center","inline":"center"}]}
+RESULT: {"script":"return ((elem, options) => elem.scrollIntoView(options)).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1A82BA61D6066640F289D2ED669A30CF_element_1656","ELEMENT":"1A82BA61D6066640F289D2ED669A30CF_element_1656"},{"behavior":"smooth","block":"center","inline":"center"}]}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1394/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"О Baspana.kz"}
+RESULT: {"using":"link text","value":"О Baspana.kz"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1DB64A5534AF0B2A10EF295859E9654F_element_1394/click - {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element - {"using":"link text","value":"О Baspana.kz"}
+RESULT: {"using":"link text","value":"О Baspana.kz"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/element/1A82BA61D6066640F289D2ED669A30CF_element_1657/click - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/back - {}
+RESULT: {}
+COMMAND: GET /session/5a1129d7a6427284355a94f529d3dac4/se/log/types - {}
+RESULT: {}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/se/log - {"type":"driver"}
+COMMAND: POST /session/5a1129d7a6427284355a94f529d3dac4/se/log - {"type":"browser"}
+RESULT: {"type":"driver"}
+RESULT: {"type":"browser"}
+COMMAND: DELETE /session/5a1129d7a6427284355a94f529d3dac4 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo Tests" timestamp="2024-01-13T16:54:55" time="3.68" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.120_0_6099_217.windows"/>
+      <property name="file" value="file:///C:/Users/Admin/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/WebdriverIO/WebdriverIO_Project_1/test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.120_0_6099_217.windows.Demo_Tests" name="My First Test" time="3.68">
+      <failure/>
+      <error message="element not interactable&#xA;  (Session info: chrome=120.0.6099.217)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/url - {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/elements - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/element/C8A8099AF32326F0282BC5B1F3176AA3_element_4/clear - {}
+RESULT: {}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/element/C8A8099AF32326F0282BC5B1F3176AA3_element_4/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/element - {"using":"css selector","value":"[name=\"btnK\"]"}
+RESULT: {"using":"css selector","value":"[name=\"btnK\"]"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/element/C8A8099AF32326F0282BC5B1F3176AA3_element_22/click - {}
+COMMAND: GET /session/f98193eed967585b41b7c72bc7319b8f/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/f98193eed967585b41b7c72bc7319b8f/se/log/types - {}
+RESULT: {}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/se/log - {"type":"driver"}
+COMMAND: POST /session/f98193eed967585b41b7c72bc7319b8f/se/log - {"type":"browser"}
+RESULT: {"type":"driver"}
+RESULT: {"type":"browser"}
+COMMAND: DELETE /session/f98193eed967585b41b7c72bc7319b8f - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+element not interactable: element not interactable
+  (Session info: chrome=120.0.6099.217)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
